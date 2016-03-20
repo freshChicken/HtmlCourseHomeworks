@@ -1,0 +1,84 @@
+/*global style property bags*/
+*{
+	box-sizing: border-box;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+ }
+
+/*Nav bar style property bags*/
+#navbar1{
+	background-color: #99ccff;
+  border-color: #191919;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand h1 { 
+  color: #0d0d0d;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#collapsable-nav ul{
+  background-color:  #32A69B;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+#collapsable-nav ul li hr{
+  margin: 0.5% 1.5%;
+  height: 1px;
+  background-color: #4b4747;
+  border-color: #4b4747;
+}
+
+#collapsable-nav ul li a{
+  color: #660066;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+#collapsable-nav ul li a:hover, #collapsable-nav ul li a:focus{
+  color: black;
+  text-shadow: 1px 1px 1px #222;
+  font-weight: bold;
+}
+
+#collapsable-nav ul{
+  border:solid 2px black
+}
+
+/*Page content style property bags*/
+#Main-Page h2{
+  color: #0d0c0c;
+  margin-bottom: 15px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 1px #888888;
+}
+
+#Main-Page .row section div{
+  background-color:  #ffcc99;
+  padding:3%;
+  margin-bottom: 12px;
+  box-shadow: 1px 1px 1px #888888;
+}
+
+#Main-Page .row section div h3{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+}
+
+#Main-Page .row section div p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+}
